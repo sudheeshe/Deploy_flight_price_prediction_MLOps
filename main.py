@@ -14,12 +14,15 @@ app = Flask(__name__)
 dashboard.bind(app)
 CORS(app)
 
-@app.route("/", methods = ['GET'])
+"""
+@app.route("/home", methods = ['GET'])
 @cross_origin()
 def home():
     return "Welcome to Flight Price Prediction home page"
+"""
 
-@app.route("/predict", methods = ['GET', 'POST'])
+
+@app.route("/", methods = ['GET'])
 @cross_origin()
 def predict_route_client():
 
