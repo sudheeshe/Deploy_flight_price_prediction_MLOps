@@ -121,7 +121,9 @@ class Prediction:
 
                 self.logger.log(self.file, 'End of Prediction')
 
-            return pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False)
+                #pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False)
+
+                print(pred_dataframe.to_string())
 
 
 
