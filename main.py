@@ -32,9 +32,9 @@ def predict_route_client():
         pred_val_obj.prediction_validation()
 
         predict = Prediction(path['test_data']['final_test_data'])
-        predict.prediction_from_model()
+        prediction = predict.prediction_from_model()
 
-        return Response("Prediction File created at Prediction_Output_File folder!!!")
+        return prediction
 
     except Exception as e:
         return f"Error occurred while training: {e}"

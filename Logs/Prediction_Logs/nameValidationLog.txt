@@ -19,3 +19,21 @@
 2022-05-25/20:02:12		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
 2022-05-25/20:02:12		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
 2022-05-25/20:02:12		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/20:45:46		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/20:45:46		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/20:45:46		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/22:09:58		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/22:09:58		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/22:09:58		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/22:12:29		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/22:12:29		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/22:12:29		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/22:17:04		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/22:17:04		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/22:17:04		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/22:18:22		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/22:18:22		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/22:18:22		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx
+2022-05-25/22:19:03		Valid File name!! File moved to GoodRaw Folder :: data_2018.xlsx
+2022-05-25/22:19:03		Invalid File Name!! File moved to Bad Raw Folder :: Data_2019 (2).xlsx
+2022-05-25/22:19:03		Invalid File Name!! File moved to Bad Raw Folder :: DATA_2019 (3).xlsx

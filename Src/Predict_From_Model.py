@@ -6,6 +6,7 @@ from Src.Clustering import KMeansClustering
 from Src.Read_Yaml import read_params
 from Src.Logging import AppLogger
 import os
+import json
 from pickle import load
 
 
@@ -101,7 +102,7 @@ class Prediction:
             list_of_cluster = preprocessed_testing_data['cluster'].unique()
 
             ####### parsing all the clusters and looking for the best ML algorithm to fit on individual cluster ########
-            pred_dataframe = pd.DataFrame()
+            #pred_dataframe = pd.DataFrame()
             for cluster in list_of_cluster:
                 cluster_data = preprocessed_testing_data[preprocessed_testing_data['cluster'] == cluster]
                 # cluster_data = cluster_data.reset_index(drop= True)
@@ -115,21 +116,24 @@ class Prediction:
 
                 model = file_ops.load_model(model_name)
 
-                result = list(model.predict(cluster_data))
-                pred_dataframe = pred_dataframe.append(result)
+                #result = list(model.predict(cluster_data))
+                #pred_dataframe = pred_dataframe.append(result)
 
+                result = model.predict(cluster_data)
+
+                #result = json.dumps(result)
 
                 self.logger.log(self.file, 'End of Prediction')
 
                 #pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False)
 
-                print(pred_dataframe.to_string())
+                return result
 
 
 
 
         except Exception as ex:
-            self.logger.log(self.logger, 'Error occured while running the prediction!! Error:: %s' % ex)
+            self.logger.log(self.file, 'Error occurred while running the prediction!! Error:: %s' % ex)
             raise ex
 
 
