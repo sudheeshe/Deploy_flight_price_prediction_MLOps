@@ -1,3 +1,4 @@
+import json
 import os
 from wsgiref import simple_server
 from flask import Flask
@@ -34,10 +35,10 @@ def predict_route_client():
         predict = Prediction(path['test_data']['final_test_data'])
         prediction = predict.prediction_from_model()
 
-        return prediction
+        return Response(str(json.loads(prediction)))
 
     except Exception as e:
-        return f"Error occurred while training: {e}"
+        return f"Error occurred while prediction: {e}"
 
 port = int(os.getenv("PORT", 5000))
 

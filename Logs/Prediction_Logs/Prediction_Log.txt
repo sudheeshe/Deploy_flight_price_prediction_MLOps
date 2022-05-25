@@ -267,3 +267,573 @@
 2022-05-25/22:19:04		Entered the load_model method of the File_Operation class
 2022-05-25/22:19:04		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
 2022-05-25/22:19:04		End of Prediction
+2022-05-25/22:42:57		Starting prediction...!!
+2022-05-25/22:42:57		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/22:42:57		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/22:42:57		Dropping Nan rows are successfull....!!
+2022-05-25/22:42:57		Merging of the values are successful....!!
+2022-05-25/22:42:57		Merging of the values are successful....!!
+2022-05-25/22:42:57		Mapping of the values are successful....!!
+2022-05-25/22:42:57		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/22:42:57		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/22:42:57		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/22:42:57		Conversion of column values into minutes are successful....!!
+2022-05-25/22:42:57		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/22:42:57		Entered the load_model method of the File_Operation class
+2022-05-25/22:42:57		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/22:42:57		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/22:42:57		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/22:42:57		Entered the load_model method of the File_Operation class
+2022-05-25/22:42:57		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/22:42:57		End of Prediction
+2022-05-25/22:42:57		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/22:42:57		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/22:42:57		Entered the load_model method of the File_Operation class
+2022-05-25/22:42:57		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/22:42:57		End of Prediction
+2022-05-25/22:52:03		Starting prediction...!!
+2022-05-25/22:52:03		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/22:52:03		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/22:52:03		Dropping Nan rows are successfull....!!
+2022-05-25/22:52:03		Merging of the values are successful....!!
+2022-05-25/22:52:03		Merging of the values are successful....!!
+2022-05-25/22:52:03		Mapping of the values are successful....!!
+2022-05-25/22:52:03		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/22:52:03		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/22:52:03		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/22:52:03		Conversion of column values into minutes are successful....!!
+2022-05-25/22:52:03		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/22:52:03		Entered the load_model method of the File_Operation class
+2022-05-25/22:52:03		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/22:52:03		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/22:52:03		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/22:52:03		Entered the load_model method of the File_Operation class
+2022-05-25/22:52:03		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/22:52:03		Error occurred while running the prediction!! Error:: Index(...) must be called with a collection of some kind, 'Prediction' was passed
+2022-05-25/23:07:00		Starting prediction...!!
+2022-05-25/23:07:00		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:00		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:00		Dropping Nan rows are successfull....!!
+2022-05-25/23:07:00		Merging of the values are successful....!!
+2022-05-25/23:07:00		Merging of the values are successful....!!
+2022-05-25/23:07:00		Mapping of the values are successful....!!
+2022-05-25/23:07:00		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:07:00		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:07:00		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:07:00		Conversion of column values into minutes are successful....!!
+2022-05-25/23:07:00		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:07:00		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:00		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:07:00		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:07:00		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:07:00		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:00		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:07:00		Error occurred while running the prediction!! Error:: Index(...) must be called with a collection of some kind, 'Prediction' was passed
+2022-05-25/23:07:28		Starting prediction...!!
+2022-05-25/23:07:28		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:28		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:28		Dropping Nan rows are successfull....!!
+2022-05-25/23:07:28		Merging of the values are successful....!!
+2022-05-25/23:07:28		Merging of the values are successful....!!
+2022-05-25/23:07:28		Mapping of the values are successful....!!
+2022-05-25/23:07:28		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:07:28		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:07:28		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:07:28		Conversion of column values into minutes are successful....!!
+2022-05-25/23:07:28		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:07:28		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:28		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:07:28		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:07:28		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:07:28		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:28		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:07:28		Error occurred while running the prediction!! Error:: Index(...) must be called with a collection of some kind, 'Prediction' was passed
+2022-05-25/23:07:47		Starting prediction...!!
+2022-05-25/23:07:47		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:47		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:07:47		Dropping Nan rows are successfull....!!
+2022-05-25/23:07:47		Merging of the values are successful....!!
+2022-05-25/23:07:47		Merging of the values are successful....!!
+2022-05-25/23:07:47		Mapping of the values are successful....!!
+2022-05-25/23:07:47		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:07:47		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:07:47		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:07:47		Conversion of column values into minutes are successful....!!
+2022-05-25/23:07:47		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:07:47		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:47		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:07:47		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:07:47		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:07:47		Entered the load_model method of the File_Operation class
+2022-05-25/23:07:47		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:08:35		Starting prediction...!!
+2022-05-25/23:08:35		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:08:35		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:08:35		Dropping Nan rows are successfull....!!
+2022-05-25/23:08:35		Merging of the values are successful....!!
+2022-05-25/23:08:35		Merging of the values are successful....!!
+2022-05-25/23:08:35		Mapping of the values are successful....!!
+2022-05-25/23:08:35		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:08:35		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:08:35		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:08:35		Conversion of column values into minutes are successful....!!
+2022-05-25/23:08:35		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:08:35		Entered the load_model method of the File_Operation class
+2022-05-25/23:08:35		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:08:35		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:08:35		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:08:35		Entered the load_model method of the File_Operation class
+2022-05-25/23:08:35		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:15:26		Starting prediction...!!
+2022-05-25/23:15:26		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:15:26		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:15:26		Dropping Nan rows are successfull....!!
+2022-05-25/23:15:26		Merging of the values are successful....!!
+2022-05-25/23:15:26		Merging of the values are successful....!!
+2022-05-25/23:15:26		Mapping of the values are successful....!!
+2022-05-25/23:15:26		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:15:26		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:15:26		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:15:26		Conversion of column values into minutes are successful....!!
+2022-05-25/23:15:26		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:15:26		Entered the load_model method of the File_Operation class
+2022-05-25/23:15:26		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:15:26		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:15:26		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:15:26		Entered the load_model method of the File_Operation class
+2022-05-25/23:15:26		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:15:26		End of Prediction
+2022-05-25/23:15:26		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:15:26		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:15:26		Entered the load_model method of the File_Operation class
+2022-05-25/23:15:26		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:15:26		End of Prediction
+2022-05-25/23:15:26		Error occurred while running the prediction!! Error:: DataFrame index must be unique for orient='columns'.
+2022-05-25/23:16:12		Starting prediction...!!
+2022-05-25/23:16:13		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:16:13		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:16:13		Dropping Nan rows are successfull....!!
+2022-05-25/23:16:13		Merging of the values are successful....!!
+2022-05-25/23:16:13		Merging of the values are successful....!!
+2022-05-25/23:16:13		Mapping of the values are successful....!!
+2022-05-25/23:16:13		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:16:13		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:16:13		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:16:13		Conversion of column values into minutes are successful....!!
+2022-05-25/23:16:13		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:16:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:16:13		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:16:13		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:16:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:16:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:16:13		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:16:13		End of Prediction
+2022-05-25/23:16:13		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:16:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:16:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:16:13		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:16:13		End of Prediction
+2022-05-25/23:20:29		Starting prediction...!!
+2022-05-25/23:20:29		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:20:29		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:20:29		Dropping Nan rows are successfull....!!
+2022-05-25/23:20:29		Merging of the values are successful....!!
+2022-05-25/23:20:29		Merging of the values are successful....!!
+2022-05-25/23:20:29		Mapping of the values are successful....!!
+2022-05-25/23:20:29		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:20:29		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:20:29		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:20:29		Conversion of column values into minutes are successful....!!
+2022-05-25/23:20:29		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:20:29		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:29		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:29		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:20:29		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:20:29		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:29		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:29		End of Prediction
+2022-05-25/23:20:29		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:20:29		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:20:29		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:29		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:33		End of Prediction
+2022-05-25/23:20:52		Starting prediction...!!
+2022-05-25/23:20:53		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:20:53		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:20:53		Dropping Nan rows are successfull....!!
+2022-05-25/23:20:53		Merging of the values are successful....!!
+2022-05-25/23:20:53		Merging of the values are successful....!!
+2022-05-25/23:20:53		Mapping of the values are successful....!!
+2022-05-25/23:20:53		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:20:53		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:20:53		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:20:53		Conversion of column values into minutes are successful....!!
+2022-05-25/23:20:53		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:20:53		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:53		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:53		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:20:53		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:20:53		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:53		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:53		End of Prediction
+2022-05-25/23:20:53		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:20:53		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:20:53		Entered the load_model method of the File_Operation class
+2022-05-25/23:20:53		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:20:53		End of Prediction
+2022-05-25/23:21:49		Starting prediction...!!
+2022-05-25/23:21:49		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:21:49		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:21:49		Dropping Nan rows are successfull....!!
+2022-05-25/23:21:49		Merging of the values are successful....!!
+2022-05-25/23:21:49		Merging of the values are successful....!!
+2022-05-25/23:21:49		Mapping of the values are successful....!!
+2022-05-25/23:21:49		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:21:49		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:21:49		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:21:49		Conversion of column values into minutes are successful....!!
+2022-05-25/23:21:49		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:21:49		Entered the load_model method of the File_Operation class
+2022-05-25/23:21:49		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:21:49		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:21:49		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:21:49		Entered the load_model method of the File_Operation class
+2022-05-25/23:21:49		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:21:49		End of Prediction
+2022-05-25/23:21:49		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:21:49		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:21:49		Entered the load_model method of the File_Operation class
+2022-05-25/23:21:49		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:21:49		End of Prediction
+2022-05-25/23:25:51		Starting prediction...!!
+2022-05-25/23:25:51		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:25:51		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:25:51		Dropping Nan rows are successfull....!!
+2022-05-25/23:25:51		Merging of the values are successful....!!
+2022-05-25/23:25:51		Merging of the values are successful....!!
+2022-05-25/23:25:51		Mapping of the values are successful....!!
+2022-05-25/23:25:51		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:25:51		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:25:51		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:25:51		Conversion of column values into minutes are successful....!!
+2022-05-25/23:25:51		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:25:51		Entered the load_model method of the File_Operation class
+2022-05-25/23:25:51		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:25:51		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:25:51		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:25:51		Entered the load_model method of the File_Operation class
+2022-05-25/23:25:51		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:25:51		End of Prediction
+2022-05-25/23:25:51		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:25:51		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:25:51		Entered the load_model method of the File_Operation class
+2022-05-25/23:25:51		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:25:51		End of Prediction
+2022-05-25/23:26:16		Starting prediction...!!
+2022-05-25/23:26:16		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:26:16		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:26:16		Dropping Nan rows are successfull....!!
+2022-05-25/23:26:16		Merging of the values are successful....!!
+2022-05-25/23:26:16		Merging of the values are successful....!!
+2022-05-25/23:26:16		Mapping of the values are successful....!!
+2022-05-25/23:26:16		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:26:16		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:26:16		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:26:16		Conversion of column values into minutes are successful....!!
+2022-05-25/23:26:16		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:26:16		Entered the load_model method of the File_Operation class
+2022-05-25/23:26:16		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:26:16		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:26:16		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:26:16		Entered the load_model method of the File_Operation class
+2022-05-25/23:26:16		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:26:16		End of Prediction
+2022-05-25/23:26:16		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:26:16		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:26:16		Entered the load_model method of the File_Operation class
+2022-05-25/23:26:16		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:26:16		End of Prediction
+2022-05-25/23:27:19		Starting prediction...!!
+2022-05-25/23:27:19		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:27:19		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:27:19		Dropping Nan rows are successfull....!!
+2022-05-25/23:27:19		Merging of the values are successful....!!
+2022-05-25/23:27:19		Merging of the values are successful....!!
+2022-05-25/23:27:19		Mapping of the values are successful....!!
+2022-05-25/23:27:19		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:27:19		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:27:19		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:27:19		Conversion of column values into minutes are successful....!!
+2022-05-25/23:27:19		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:27:19		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:19		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:19		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:27:19		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:27:19		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:19		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:19		End of Prediction
+2022-05-25/23:27:19		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:27:19		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:27:19		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:19		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:19		End of Prediction
+2022-05-25/23:27:37		Starting prediction...!!
+2022-05-25/23:27:37		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:27:37		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:27:37		Dropping Nan rows are successfull....!!
+2022-05-25/23:27:37		Merging of the values are successful....!!
+2022-05-25/23:27:37		Merging of the values are successful....!!
+2022-05-25/23:27:37		Mapping of the values are successful....!!
+2022-05-25/23:27:37		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:27:37		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:27:37		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:27:37		Conversion of column values into minutes are successful....!!
+2022-05-25/23:27:37		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:27:37		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:37		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:37		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:27:37		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:27:37		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:37		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:37		End of Prediction
+2022-05-25/23:27:37		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:27:37		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:27:37		Entered the load_model method of the File_Operation class
+2022-05-25/23:27:37		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:27:37		End of Prediction
+2022-05-25/23:29:05		Starting prediction...!!
+2022-05-25/23:29:05		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:29:05		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:29:05		Dropping Nan rows are successfull....!!
+2022-05-25/23:29:05		Merging of the values are successful....!!
+2022-05-25/23:29:05		Merging of the values are successful....!!
+2022-05-25/23:29:05		Mapping of the values are successful....!!
+2022-05-25/23:29:05		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:29:05		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:29:05		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:29:05		Conversion of column values into minutes are successful....!!
+2022-05-25/23:29:05		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:29:05		Entered the load_model method of the File_Operation class
+2022-05-25/23:29:05		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:29:05		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:29:05		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:29:05		Entered the load_model method of the File_Operation class
+2022-05-25/23:29:05		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:29:05		End of Prediction
+2022-05-25/23:29:05		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:29:05		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:29:05		Entered the load_model method of the File_Operation class
+2022-05-25/23:29:05		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:29:05		End of Prediction
+2022-05-25/23:31:13		Starting prediction...!!
+2022-05-25/23:31:13		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:31:13		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:31:13		Dropping Nan rows are successfull....!!
+2022-05-25/23:31:13		Merging of the values are successful....!!
+2022-05-25/23:31:13		Merging of the values are successful....!!
+2022-05-25/23:31:13		Mapping of the values are successful....!!
+2022-05-25/23:31:13		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:31:13		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:31:13		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:31:13		Conversion of column values into minutes are successful....!!
+2022-05-25/23:31:13		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:31:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:31:13		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:31:13		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:31:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:31:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:31:13		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:31:13		End of Prediction
+2022-05-25/23:31:13		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:31:13		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:31:13		Entered the load_model method of the File_Operation class
+2022-05-25/23:31:13		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:31:13		End of Prediction
+2022-05-25/23:32:38		Starting prediction...!!
+2022-05-25/23:32:38		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:32:38		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:32:38		Dropping Nan rows are successfull....!!
+2022-05-25/23:32:38		Merging of the values are successful....!!
+2022-05-25/23:32:38		Merging of the values are successful....!!
+2022-05-25/23:32:38		Mapping of the values are successful....!!
+2022-05-25/23:32:38		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:32:38		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:32:38		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:32:38		Conversion of column values into minutes are successful....!!
+2022-05-25/23:32:38		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:32:38		Entered the load_model method of the File_Operation class
+2022-05-25/23:32:38		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:32:38		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:32:38		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:32:38		Entered the load_model method of the File_Operation class
+2022-05-25/23:32:38		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:32:38		End of Prediction
+2022-05-25/23:32:38		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:32:38		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:32:38		Entered the load_model method of the File_Operation class
+2022-05-25/23:32:38		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:32:38		End of Prediction
+2022-05-25/23:33:12		Starting prediction...!!
+2022-05-25/23:33:12		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:33:12		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:33:12		Dropping Nan rows are successfull....!!
+2022-05-25/23:33:12		Merging of the values are successful....!!
+2022-05-25/23:33:12		Merging of the values are successful....!!
+2022-05-25/23:33:12		Mapping of the values are successful....!!
+2022-05-25/23:33:12		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:33:12		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:33:12		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:33:12		Conversion of column values into minutes are successful....!!
+2022-05-25/23:33:12		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:33:12		Entered the load_model method of the File_Operation class
+2022-05-25/23:33:12		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:33:12		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:33:12		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:33:12		Entered the load_model method of the File_Operation class
+2022-05-25/23:33:12		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:33:12		End of Prediction
+2022-05-25/23:33:12		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:33:12		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:33:12		Entered the load_model method of the File_Operation class
+2022-05-25/23:33:12		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:33:12		End of Prediction
+2022-05-25/23:34:39		Starting prediction...!!
+2022-05-25/23:35:06		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:35:08		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:35:12		Dropping Nan rows are successfull....!!
+2022-05-25/23:35:19		Merging of the values are successful....!!
+2022-05-25/23:35:23		Merging of the values are successful....!!
+2022-05-25/23:35:27		Mapping of the values are successful....!!
+2022-05-25/23:35:35		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:35:48		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:36:03		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:36:15		Conversion of column values into minutes are successful....!!
+2022-05-25/23:36:18		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:36:27		Entered the load_model method of the File_Operation class
+2022-05-25/23:36:28		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:36:36		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:36:41		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:36:42		Entered the load_model method of the File_Operation class
+2022-05-25/23:36:44		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:36:47		End of Prediction
+2022-05-25/23:36:55		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:37:01		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:37:03		Entered the load_model method of the File_Operation class
+2022-05-25/23:37:05		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:37:17		End of Prediction
+2022-05-25/23:39:52		Starting prediction...!!
+2022-05-25/23:39:52		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:39:52		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:39:52		Dropping Nan rows are successfull....!!
+2022-05-25/23:39:52		Merging of the values are successful....!!
+2022-05-25/23:39:52		Merging of the values are successful....!!
+2022-05-25/23:39:52		Mapping of the values are successful....!!
+2022-05-25/23:39:52		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:39:52		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:39:52		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:39:52		Conversion of column values into minutes are successful....!!
+2022-05-25/23:39:52		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:39:52		Entered the load_model method of the File_Operation class
+2022-05-25/23:39:52		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:39:52		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:39:52		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:39:52		Entered the load_model method of the File_Operation class
+2022-05-25/23:39:52		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:39:52		End of Prediction
+2022-05-25/23:39:52		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:39:52		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:39:52		Entered the load_model method of the File_Operation class
+2022-05-25/23:39:52		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:39:52		End of Prediction
+2022-05-25/23:40:25		Starting prediction...!!
+2022-05-25/23:40:25		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:40:25		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:40:25		Dropping Nan rows are successfull....!!
+2022-05-25/23:40:25		Merging of the values are successful....!!
+2022-05-25/23:40:25		Merging of the values are successful....!!
+2022-05-25/23:40:25		Mapping of the values are successful....!!
+2022-05-25/23:40:25		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:40:25		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:40:25		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:40:25		Conversion of column values into minutes are successful....!!
+2022-05-25/23:40:25		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:40:25		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:25		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:25		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:40:25		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:40:25		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:25		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:25		End of Prediction
+2022-05-25/23:40:25		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:40:25		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:40:25		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:25		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:25		End of Prediction
+2022-05-25/23:40:46		Starting prediction...!!
+2022-05-25/23:40:47		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:40:47		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:40:47		Dropping Nan rows are successfull....!!
+2022-05-25/23:40:47		Merging of the values are successful....!!
+2022-05-25/23:40:47		Merging of the values are successful....!!
+2022-05-25/23:40:47		Mapping of the values are successful....!!
+2022-05-25/23:40:47		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:40:47		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:40:47		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:40:47		Conversion of column values into minutes are successful....!!
+2022-05-25/23:40:47		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:40:47		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:47		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:47		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:40:47		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:40:47		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:47		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:47		End of Prediction
+2022-05-25/23:40:47		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:40:47		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:40:47		Entered the load_model method of the File_Operation class
+2022-05-25/23:40:47		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:40:47		End of Prediction
+2022-05-25/23:42:48		Starting prediction...!!
+2022-05-25/23:42:48		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:42:48		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:42:48		Dropping Nan rows are successfull....!!
+2022-05-25/23:42:48		Merging of the values are successful....!!
+2022-05-25/23:42:48		Merging of the values are successful....!!
+2022-05-25/23:42:48		Mapping of the values are successful....!!
+2022-05-25/23:42:48		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:42:48		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:42:48		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:42:48		Conversion of column values into minutes are successful....!!
+2022-05-25/23:42:48		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:42:48		Entered the load_model method of the File_Operation class
+2022-05-25/23:42:48		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:42:48		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:42:48		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:42:48		Entered the load_model method of the File_Operation class
+2022-05-25/23:42:48		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:42:48		End of Prediction
+2022-05-25/23:42:48		Error occurred while running the prediction!! Error:: "None of [Index(['P', 'r', 'e', 'd', 'i', 'c', 't', 'i', 'o', 'n'], dtype='object')] are in the [columns]"
+2022-05-25/23:43:43		Starting prediction...!!
+2022-05-25/23:43:43		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:43:43		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2022-05-25/23:43:43		Dropping Nan rows are successfull....!!
+2022-05-25/23:43:43		Merging of the values are successful....!!
+2022-05-25/23:43:43		Merging of the values are successful....!!
+2022-05-25/23:43:43		Mapping of the values are successful....!!
+2022-05-25/23:43:43		Conversion to datetime format of 'Date_of_Journey' column is successful......!!
+2022-05-25/23:43:43		Conversion to parts_of_day of 'Dep_Time' column is successful......!!
+2022-05-25/23:43:43		Conversion to parts_of_day of 'Arrival_Time' column is successful......!!
+2022-05-25/23:43:43		Conversion of column values into minutes are successful....!!
+2022-05-25/23:43:43		['Route', 'ID'] column has been removed successfully...!!
+2022-05-25/23:43:43		Entered the load_model method of the File_Operation class
+2022-05-25/23:43:43		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:43:43		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:43:43		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:43:43		Entered the load_model method of the File_Operation class
+2022-05-25/23:43:43		Model File RandomForest Regressor0 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:43:43		End of Prediction
+2022-05-25/23:43:43		Entered the find_correct_model_file method of the File_Operation class
+2022-05-25/23:43:43		Exited the find_correct_model_file method of the Model_Finder class.
+2022-05-25/23:43:43		Entered the load_model method of the File_Operation class
+2022-05-25/23:43:43		Model File RandomForest Regressor2 loaded. Exited the load_model method of the Model_Finder class
+2022-05-25/23:43:43		End of Prediction

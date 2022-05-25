@@ -102,7 +102,7 @@ class Prediction:
             list_of_cluster = preprocessed_testing_data['cluster'].unique()
 
             ####### parsing all the clusters and looking for the best ML algorithm to fit on individual cluster ########
-            #pred_dataframe = pd.DataFrame()
+            pred_dataframe = pd.DataFrame()
             for cluster in list_of_cluster:
                 cluster_data = preprocessed_testing_data[preprocessed_testing_data['cluster'] == cluster]
                 # cluster_data = cluster_data.reset_index(drop= True)
@@ -116,18 +116,14 @@ class Prediction:
 
                 model = file_ops.load_model(model_name)
 
-                #result = list(model.predict(cluster_data))
-                #pred_dataframe = pred_dataframe.append(result)
-
-                result = model.predict(cluster_data)
-
-                #result = json.dumps(result)
+                result = list(model.predict(cluster_data))
+                pred_dataframe = pred_dataframe.append(result)
 
                 self.logger.log(self.file, 'End of Prediction')
 
-                #pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False)
+                pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False, header=False)
 
-                return result
+            return pred_dataframe.head().to_json(orient="records")
 
 
 
