@@ -1,0 +1,15 @@
+2022-05-25/15:16:02		Start of Validation on files for prediction!!
+2022-05-25/15:16:02		Raw Data Validation Complete!!
+2022-05-25/15:16:02		Creating Prediction_Input_data on the basis of given schema!!!
+2022-05-25/15:18:50		Start of Validation on files for prediction!!
+2022-05-25/15:20:02		Raw Data Validation Complete!!
+2022-05-25/15:20:04		Creating Prediction_Input_data on the basis of given schema!!!
+2022-05-25/15:23:01		Start of Validation on files for prediction!!
+2022-05-25/15:23:02		Raw Data Validation Complete!!
+2022-05-25/15:23:02		Creating Prediction_Input_data on the basis of given schema!!!
+2022-05-25/15:24:24		Start of Validation on files for prediction!!
+2022-05-25/15:24:25		Raw Data Validation Complete!!
+2022-05-25/15:24:25		Creating Prediction_Input_data on the basis of given schema!!!
+2022-05-25/15:25:37		Start of Validation on files for prediction!!
+2022-05-25/15:25:37		Raw Data Validation Complete!!
+2022-05-25/15:25:37		Creating Prediction_Input_data on the basis of given schema!!!

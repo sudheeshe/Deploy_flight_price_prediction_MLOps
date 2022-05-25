@@ -1,0 +1,10 @@
+2022-05-25/15:16:02		BadRaw directory deleted before starting validation!!!
+2022-05-25/15:16:02		GoodRaw directory deleted successfully!!!
+2022-05-25/15:19:06		BadRaw directory deleted before starting validation!!!
+2022-05-25/15:19:12		GoodRaw directory deleted successfully!!!
+2022-05-25/15:23:01		BadRaw directory deleted before starting validation!!!
+2022-05-25/15:23:01		GoodRaw directory deleted successfully!!!
+2022-05-25/15:24:24		BadRaw directory deleted before starting validation!!!
+2022-05-25/15:24:24		GoodRaw directory deleted successfully!!!
+2022-05-25/15:25:37		BadRaw directory deleted before starting validation!!!
+2022-05-25/15:25:37		GoodRaw directory deleted successfully!!!

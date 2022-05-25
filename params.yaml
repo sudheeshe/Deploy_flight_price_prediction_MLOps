@@ -1,0 +1,90 @@
+base:
+  project: Flight_price_predition
+  random_state: 369
+  target_col: Price
+
+
+load_data:
+  raw_dataset_csv: Data/Training_Data/Training_Batch_Files/
+  archive_data: Data/Training_Data/Training_Archive_Bad_Data/
+  data_from_db: Data/Training_Data/Training_File_From_DB/
+  validated_raw_data: Data/Training_Data/Training_Raw_Files_Validated/
+  final_data: Data/Training_Data/Final_Training_Data/final_train_x.csv
+
+
+data_base_info:
+  database_name: flight_price_prediction
+  keyspace_name: flight_price_prediction_keyspace
+  table_name: training_files
+  secure_connect_bundle: Cassandra_Bundle/secure-connect-flight-price-prediction.zip
+  client_id: caqhALHQBBIUIZWptJlnouhX
+  auth_provider: 9M86beObXwhCR+_L,FSbYX4ZeF_nJ39.pjmDtn8Za-N3L9P+kJwrDxhP4MPZ_a4hRy3Z2FEnxRCI_5SNIJZPm6eJhAvDFG-7F-ZeqPGiqk-BCy+xOr1mZf043J4boBhS
+
+
+logs:
+  log_dir_training: Logs/Training_Logs
+  log_dir_prediction: Logs/Prediction_Logs
+  KMeans_elbowplot: Logs/Data_Info/Plots/K_Means_Elbow.PNG
+
+
+schema_files:
+  training_schema_json: Schema/schema_training.json
+  prediction_schema_json: Schema/schema_prediction.json
+
+
+transformation_pkl:
+  one_hot_encoder: Transformation/onehot_encoder.pkl
+  cluster: Transformation/Kmeans_cluster.pkl
+
+
+estimators:
+  random_forest_regressor:
+    params:
+      n_estimators: [5,50,100, 250, 500]
+      max_depth: [5,10,15,20,30,]
+      min_samples_split: [2]
+      min_samples_leaf: [1]
+      min_weight_fraction_leaf: [0]
+      max_features: [1,2,3,4]
+      max_leaf_nodes: [4]
+      min_impurity_decrease: [0]
+      bootstrap: [True]
+      oob_score: [False]
+      n_jobs: [1]
+      random_state: [369]
+      verbose: [0]
+      warm_start: [False]
+      ccp_alpha: [0]
+      max_samples: [5]
+
+    random_forest_gridsearch_cv:
+      cv: 5
+      verbose: 2
+
+
+  linear_regressor:
+    params:
+      fit_intercept: [True]
+
+    linear_regression_gridsearch_cv:
+      cv: 5
+      verbose: 2
+
+
+
+model_dir:
+  prediction_models: Models/Available_Prediction_Models
+  clustering_models: Models/Available_Cluster_Models
+
+
+reports:
+  params: Reports/params.json
+  scores: Reports/scores.json
+
+
+test_data:
+  raw_test_dataset: Data/Prediction_Data/Prediction_Batch_Files/
+  archive_test_data: Data/Prediction_Data/Prediction_Archived_Bad_Data/
+  validated_raw_test_data: Data/Prediction_Data/Prediction_Raw_Files_Validated/
+  final_test_data: Data/Prediction_Data/Final_Test_Data/final_test.csv
+  prediction_output: Data/Prediction_Data/Prediction_Output_File/Predictions.csv
