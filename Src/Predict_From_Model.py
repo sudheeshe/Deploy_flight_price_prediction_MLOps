@@ -1,3 +1,5 @@
+import json
+
 import pandas as pd
 from Src.Prediction_Data_Validation import PredictionDataValidation
 from Src.Prediction_Data_Preprocessing import PredDataPreprocessor
@@ -6,7 +8,7 @@ from Src.Clustering import KMeansClustering
 from Src.Read_Yaml import read_params
 from Src.Logging import AppLogger
 import os
-import json
+from jsonify.convert import jsonify
 from pickle import load
 
 
@@ -116,14 +118,15 @@ class Prediction:
 
                 model = file_ops.load_model(model_name)
 
-                result = list(model.predict(cluster_data))
-                pred_dataframe = pred_dataframe.append(result)
+                result = model.predict(cluster_data)
+                result = result.tolist()
+                #pred_dataframe = pred_dataframe.append(result)
 
                 self.logger.log(self.file, 'End of Prediction')
 
-                pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False, header=False)
+                #pred_dataframe.to_csv(self.schema['test_data']['prediction_output'], index=False, header=False)
 
-            return pred_dataframe.head().to_json(orient="records")
+                return json.dumps(result)
 
 
 

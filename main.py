@@ -1,4 +1,4 @@
-import json
+import json, jsonify
 import os
 from wsgiref import simple_server
 from flask import Flask
@@ -37,7 +37,7 @@ def predict_route_client():
         predict = Prediction(path['test_data']['final_test_data'])
         prediction = predict.prediction_from_model()
 
-        return Response(str(json.loads(prediction)))
+        return str(json.loads(prediction))
 
     except Exception as e:
         return f"Error occurred while prediction: {e}"
